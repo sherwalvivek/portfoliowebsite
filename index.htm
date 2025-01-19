@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek's Portfolio</title>
+    <style>
+        @import url("style.css");
+        @import url("media.css");
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+    </style>
+</head>
+
+<body>
+    <div id="topsec" class="top">
+        <div>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i> 1234567987</a>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> abc@gmail.com</a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div><a href="#">Vivek's Portfolio</a></div>
+        <div>
+            <ul>
+                <li><a href="#topsec">Home</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#skill">MySkils</a></li>
+                <li><a href="#cnt">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></i>
+            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></i>
+        </div>
+    </nav>
+    <div class="main">
+        <div id="main-sec" class="main-intro">
+            <section>
+                <h2>Hello, My name is Vivek.
+                    I'm a MERN Stack Developer And Software Engineer.
+                </h2>
+            </section>
+            <section>
+                <img src="./Images/vecteezy_a-couple-is-having-a-discussion-about-business-growth_4579013.jpg">
+            </section>
+        </div>
+        <div id="intro"></div>
+        <div class="my-intro">
+            <h2>More About Me</h2>
+            <p>Hello, My name is Vivek. I'm recently graduated in Computer Science and Engineering.
+                I'm Proficient in MERN Stack.</p>
+            <p id="para">A fast learner with a strong foundation
+                in programming concepts and problem solving skills. Committed to delivering high-quality web applica-
+                tions and continuously enhancing technical proficiency. Eager to contribute to a dynamic team and make
+                a positive impact in the field of web development.</p>
+            <button id="btn" type="button">Show More</button>
+        </div>
+        <div id="skill" class="my-skills my-intro">
+            <h2>My Skills</h2>
+            <ul>
+                <li><img src="./Images/html.png"></li>
+                <li><img src="./Images/css-3.png"></li>
+                <li><img src="./Images/js.png"></li>
+                <li><img src="./Images/physics.png"></li>
+                <li><img src="./Images/bootstrap.png"></li>
+                <li><img src="./Images/nodejs.png"></li>
+                <li><img src="./Images/social.png"></li>
+                <li><img src="./Images/database-storage.png"></li>
+                <li><img src="./Images/java.png"></li>
+                <li><img src="./Images/c-.png"></li>
+            </ul>
+        </div>
+        <div id="cnt" class="my-contact my-intro">
+            <h2>Contact Me</h2>
+            <p>
+                Phone Number : 1223345567
+                Gmail id: abc@gmail.com
+                Address: abc cde
+            </p>
+            <form>
+                <h3>Contact Form</h3>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="eamil" name="email" placeholder="Enter your email">
+                <label for="msg">Message:</label>
+                <textarea rows="8" placeholder="Enter Your Message" value="msg"></textarea>
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <ul>
+            <li>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skill</li>
+                    <li>Contact</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>facebook</li>
+                    <li>linkedIn</li>
+                    <li>Github</li>
+                    <li>twitter</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></i></li>
+                    <li> <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></i></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skill</li>
+                    <li>Contact</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>facebook</li>
+                    <li>linkedIn</li>
+                    <li>Github</li>
+                    <li>twitter</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Copyright &copy; 2024 || All right reserved</p>
+    </footer>
+    <script>
+        let toggle = document.getElementById('btn');
+        toggle.addEventListener('click', () => {
+            if (toggle.innerHTML === 'Show More') {
+                toggle.innerHTML = 'Show Less'
+                document.getElementById('para').style.display = 'block';
+            }
+            else {
+                toggle.innerHTML = 'Show More'
+                document.getElementById('para').style.display = 'none';
+            }
+
+        })
+    </script>
+</body>
+
+</html>

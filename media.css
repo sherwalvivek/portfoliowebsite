@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+    .main-intro{
+        display:block;
+    }
+    .main-intro>section>h2{
+        padding: 17px;
+        font-size: 27px;
+    }
+    .main-intro>section>img{
+        padding: 17px;
+       width: 297px;
+    }
+    .navbar{
+        display: block;
+        padding: 17px;
+    }
+    .navbar>div:nth-child(2){
+      position: relative;
+      right: 227px;
+      
+    }
+    .navbar>div:nth-child(3)>a{
+        display: none;
+    }
+    .my-skills>ul{
+        display: flex;
+        width: 297;
+        margin: 0px;
+    }
+    .my-skills>ul>li>img{
+        width: 41px;
+    }
+    .my-contact>p{
+      width: auto;
+      padding: 0px;
+      margin: 0px;
+      margin-bottom:57px ;
+    }
+    .my-contact>form{
+        width: 100%;
+        padding: 17px;
+    }
+    .my-contact>form>button{
+        width: 97px;
+        margin-top: 0px;
+    }
+    .footer>ul{
+        height: 87px;
+    }
+}

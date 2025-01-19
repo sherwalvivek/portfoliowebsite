@@ -1,0 +1,192 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.top{
+    display: flex;
+    background-color: rgba(143, 203, 255, 0.39);
+    padding: 11px;
+}
+.top>div{
+    flex: 1;
+}
+.top>div:nth-child(2){
+    position: absolute;
+    right: 27px;
+}
+.top>div>a{
+   text-decoration: none;
+}
+
+.navbar{
+    padding: 27px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    position: sticky;
+    top: -7px;
+
+}
+.navbar>div>ul{
+    display: flex;
+    list-style: none;
+}
+.navbar>div>ul>li>a{
+    flex: 1;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 7px;
+     
+}
+.navbar>div:nth-child(1)>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar>div:nth-child(2){
+  flex: 2;
+  padding-left: 257px;
+  padding-right: 157px;
+}
+.navbar>div:nth-child(3)>a{
+    color: aliceblue;
+    flex: 3;
+    /* padding: 7px; */
+    
+}
+.main-intro{
+    display: flex;
+}
+.main-intro>section>h2{
+    margin: 27px;
+    border-radius: 11px;
+    background-color: rgba(143, 203, 255, 0.39);
+    flex: 1;
+    padding: 57px;
+    font-size: 41px;
+}
+.main-intro>section>img{
+    width: 497px;
+}
+.my-intro{
+    padding: 27px;
+    background-color: rgba(174, 193, 255, 0.21);
+}
+.my-intro>h2{
+    margin: 27px;
+    padding: 11px;
+    border-radius: 11px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.my-intro>p{
+    padding: 27px;
+    font-size: 21px;
+}
+#para{
+   display: none;
+}
+.my-intro>button{
+    width: 157px;
+    background-color: rgb(142, 174, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 11px;
+    margin-left: 57px;
+    border-radius: 17px;
+    border: none;
+}
+.my-intro>button:hover{
+    background-color: gray;
+    color: black;
+}
+.my-skills>ul>li>img{
+    width: 97px;
+}
+.my-skills>ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 127px;
+    margin-right: 127px;
+}
+.my-skills>ul>li{
+  flex: 1;
+  padding: 27px;
+}
+.my-contact>p{
+
+    width: 357px;
+    margin: 57px;
+    height: auto;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 17px;
+}
+.my-contact>form{
+      background: linear-gradient(hsla(209, 100%, 69%, 0.279),rgba(143, 255, 255, 0.744),hsla(209, 100%, 69%, 0.283));
+      width: 50%;
+      padding: 57px;
+      border: solid black 2px;
+      align-items: center;
+      border-radius: 11px;
+}
+.my-contact>form>label{
+       display: block;
+       padding: 7px;
+      justify-content: center;
+      border-radius: 7px;
+}
+
+.my-contact>form>input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+}
+.my-contact>form>textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+}
+.my-contact>form>button{
+    background-color: rgb(142, 174, 255);
+    color: rgb(0, 0, 0);
+    width: 257px;
+    margin-top: 41px;
+    padding: 11px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.my-contact>form>button:hover   {
+     background-color: gray;
+     color: black;
+}
+.footer{
+    background-color: black;
+    padding: 27px;
+    color: aliceblue;
+    text-align: center;
+}
+.footer>ul{
+    display: flex;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+    list-style-type: none
+}
+.footer>ul>li{
+    flex: 1;
+}
+.footer>ul>li>ul{
+    list-style-type: none;
+}
+.footer>ul>li>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+}
